@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo-Ecommerce-Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+     <header>
+              <div class="navbar">
+              <div class="nav-logo border">
+                   <div class="logo"></div>
+              </div>
+            
+            <div class="nav-address border">
+                <p class="address-first">Deliver to</p>
+                <div class="add-icon">
+                     <i class="fa-solid fa-location-dot"></i>
+                    <p class="address-second">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option value="All">All</option>
+                </select>
+                <input type="search" placeholder="https://github.com/Codedakshmalviya" class="search-input">
+                <div class="search-icon" onclick="searchPage()">
+                    <i class="fa-solid fa-magnifying-glass" style="color: black;"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin">
+               <div class="sign-div border">
+                 <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Accoount & Lists</p>
+               </div>
+               <div class="button-hover" name="ok"><i class="fa-solid fa-caret-down"></i>
+
+                <div class="box" name="ok">
+                    <div class="link"></div>
+                    <div class="sign-in">
+                            <h2>sign in</h2>
+                         </div>
+                         <p>New Customer? <a href="" style="text-decoration: underline;color:rgb(32, 32, 223);">Click Here</a></p>
+
+                         <div class="extra">
+                            <div class="twobox one">
+                                <ul>
+                                    <h2>Your Lists</h2>
+                                    <a href="">Create a Wish List</a>
+                                    <a href="">Wish from Any Website</a>
+                                    <a href="">Baby Wishlist</a>
+                                    <a href="">Discover Your Style</a>
+                                    <a href="">Explore Showroom</a>
+                                </ul>
+                            </div>
+                            <div class="twobox two">
+                                 <ul>
+                                    <h2>Your Lists</h2>
+                                    <a href="">Create a Wish List</a>
+                                    <a href="">Wish from Any Website</a>
+                                    <a href="">Baby Wishlist</a>
+                                    <a href="">Discover Your Style</a>
+                                    <a href="">Explore Showroom</a>
+                                    <a href="">Discover Your Style</a>
+                                    <a href="">Explore Showroom</a>
+                                    <a href="">Discover Your Style</a>
+                                    <a href="">Explore Showroom</a>
+                                    
+                                </ul>
+                            </div>
+                         </div>
+
+                </div>
+            </div> 
+            </div>
+
+            
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                cart
+            </div>
+
+        </div>
+     </header>
+
+     <div class="link-container">
+        <div class="aside-link border">
+            <a href="#" id="ok" ><i class="fa-solid fa-burger"></i>All</a>
+            <div class="side">
+                <div class="id-log"><a href="./login.html"> <i class="fa-regular fa-user"></i> Dear Customer</a>
+                    <p id="para"><a href="./login.html" style="text-decoration: underline; color:rgb(221, 227, 234);">Click Here</a> For User Login</p>
+                </div>
+                <ul>
+                    <a href="">Demolink for unknown page one?</a>
+                    <a href="">Demolink for unknown page two?</a>
+                    <a href="">Demolink for unknown page three?</a>
+                    <a href="">Demolink for unknown page four?</a>
+                    <a href="">Demolink for unknown page five?</a>
+                    <a href="">Demolink for unknown page six?</a>
+                    <a href="">Demolink for unknown page seven?</a>
+                    <a href="">Demolink for unknown page eight?</a>
+                    <a href="">Demolink for unknown page nine?</a>
+                    <a href="">Demolink for unknown page ten?</a>
+                    <a href="">Demolink for unknown page eleven?</a>
+                    <a href="">Demolink for unknown page twelve?</a>
+                    <a href="">Demolink for unknown page thirteen?</a>
+                    <a href="">Demolink for unknown page fourteen?</a>
+                </ul>
+            </div>
+    </div>
+        <ul id="pages">
+            <li class="items border"><a href="./index.html" id="amazonpay">Home</a></li>
+            <li class="items border"><a href="./Mobiles.html" id="mobiles"></a>Mobiles</li>
+            <li class="items border"><a href="./Todaysdeal.html" id="todays"></a>Today's Deals</li>
+            <li class="items border"><a href="./Coupons.html" id="coupons"></a>Coupons</li>
+            <li class="items border"><a href="./Flights.html" id="flights"></a>Flights</li>
+            <li class="items border"><a href="./Electronics.html" id="electronics">Electronics</a></li>
+             <li class="items border"><a href="./NewReleases.html" id="newreleases">New Releases</a></li>
+              <li class="items border"><a href="./Bestsellers.html" id="bestseller">Bestsellers</a></li>
+               <li class="items border"><a href="./Fashion.html" id="electronics">Fashion</a></li>
+                <li class="items border"><a href="./Electronics.html" id="electronics">Computers</a></li>
+                 <li class="items border"><a href="./Electronics.html" id="electronics">Pet Supplies</a></li>
+        </ul>
+
+        <div class="ad-display border">
+            <svg width="50" height="35" viewBox="0 0 64 64" fill="none" xmlns="http://w3.org">
+  <!-- Diya Flame -->
+  <path d="M32 6C32 6 24 18 24 24C24 28.4183 27.5817 32 32 32C36.4183 32 40 28.4183 40 24C40 18 32 6 32 6Z" fill="#FF9F43"/>
+  <path d="M32 12C32 12 27 20 27 24C27 26.7614 29.2386 29 32 29C34.7614 29 37 26.7614 37 24C37 20 32 12 32 12Z" fill="#FF5252"/>
+  
+  <!-- Diya Clay Base -->
+  <path d="M10 32C10 32 8 46 22 52C28 54.5 36 54.5 42 52C56 46 54 32 54 32H10Z" fill="#8B4513"/>
+  <path d="M12 32C16 36 48 36 52 32H12Z" fill="#A0522D"/>
+</svg>
+
+            <a href="https://www.Amazon.com.in">
+                Great Indian Festival | Live Now</a>
+        </div>
+     </div>
+     
+     <div class="hero-section">
+        <div class="hero-message">
+            <p>You are on amazon.com.You can also shop on Amazon india for millions of products with fast local delivery. <a href="#">Click here to go to amazon.in</a> </p>
+        </div>
+     </div>
+     <div class="shop-section">
+        <div class="box1 boxx">
+           <div class="box-content"> <h2>Health & Personal Care</h2>
+            <div class="box-image" style="background-image: url('box1_image.jpg');"></div>
+            <p>See more</p></div>
+        </div>
+        <div class="box2 boxx">
+            <div class="box-content"> <h2>Clothes</h2>
+            <div class="box-image" style="background-image: url('box2_image.jpg');"></div>
+            <p>See more</p></div>
+        </div>
+        <div class="box3 boxx"><div class="box-content"> <h2>Furniture</h2>
+            <div class="box-image" style="background-image: url('box3_image.jpg');"></div>
+            <p>See more</p></div></div>
+        <div class="box4 boxx"><div class="box-content"> <h2>Electronics</h2>
+            <div class="box-image" style="background-image: url('box4_image.jpg');"></div>
+            <p>See more</p></div></div>
+            <div class="box1 boxx">
+           <div class="box-content"> <h2>Beauty Picks</h2>
+            <div class="box-image" style="background-image: url('box5_image.jpg');"></div>
+            <p>See more</p></div>
+        </div>
+        <div class="box2 boxx">
+            <div class="box-content"> <h2>Pat Care</h2>
+            <div class="box-image" style="background-image: url('box6_image.jpg');"></div>
+            <p>See more</p></div>
+        </div>
+        <div class="box3 boxx"><div class="box-content"> <h2>New Arrival in Toys</h2>
+            <div class="box-image" style="background-image: url('box7_image.jpg');"></div>
+            <p>See more</p></div></div>
+        <div class="box4 boxx"><div class="box-content"> <h2>Discover Fashion Trends</h2>
+            <div class="box-image" style="background-image: url('box8_image.jpg');"></div>
+            <p>See more</p></div></div>
+     </div>
+
+     <footer>
+        <div class="foot-panel1">Back To Top</div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">About Amazon</a>
+                <a href="">Investor Relations</a>
+                <a href="">Amazon Devices</a>
+                <a href="">Amazon Science</a>
+            </ul>
+
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">About Amazon</a>
+                <a href="">Investor Relations</a>
+                <a href="">Amazon Devices</a>
+                <a href="">Amazon Science</a>
+            </ul>
+
+
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">About Amazon</a>
+                <a href="">Investor Relations</a>
+                <a href="">Amazon Devices</a>
+                <a href="">Amazon Science</a>
+            </ul>
+
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">About Amazon</a>
+                <a href="">Investor Relations</a>
+                <a href="">Amazon Devices</a>
+                <a href="">Amazon Science</a>
+            </ul>
+
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages-one">
+                <a href="">Conditions Of Use</a>
+                <a href="">Privacy Notice</a>
+                <a href="">Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2026, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+     </footer>
+
+     <script src="index.js"></script>
+</body>
+</html>
